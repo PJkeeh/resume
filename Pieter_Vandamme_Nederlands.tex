@@ -1,0 +1,233 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\lastupdated % Print the Last Updated text at the top right
+
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt, xshift=-2cm, yshift=0cm] at (pic cs:stickit) 
+  {\includegraphics[scale=0.03]{photo.png}};
+\end{tikzpicture}
+\namesection{Pieter}{Vandamme}{ % Your name
+
+Geboren 23/06/1994 in Brugge | Woont in Ruddervoorde, België
+
+\urlstyle{same} % Your website, LinkedIn profile or other web address
+\href{mailto:pieter3.vandamme@gmail.com}{pieter3.vandamme@gmail.com} | +32 479 70 86 15 % Your contact information
+}\\
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\subsection{Programmeren}
+
+\location{Goede kennis:}
+Java \textbullet{} Bash \textbullet{} JavaScript\textbullet{} vis.js \\ Windows automatisation scripting (Batch-files) \\ 
+Ruby \textbullet{} Sinatra \textbullet{} C\#.NET  \textbullet{} HAML \\ Object-Oriented principes \textbullet{} MySQL \\
+
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{Degelijke kennis:}
+\LaTeX\ \textbullet{} CSS \textbullet{} PHP \textbullet{} MySQL \textbullet{} Powershell \\
+ASP.NET \textbullet jQuery \textbullet CSS 
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Networking}
+
+\location{Goede kennis:}
+Routing \textbullet{} Switching \textbullet{} IPv4 \\ 
+Debian \textbullet{} CentOS \\ Linux server management \\ Routing principes \\ Cisco \textbullet{} Network configuratie parsing \\ Windows Server management\\
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Overige}
+SCRUM \textbullet{} Git \textbullet SVN \\
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Soft Skills}
+Assertief\textbullet{} Teamplayer \textbullet{} Betrouwbaar \\ Flexibel
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education} 
+
+\subsection{Hogeschool Vives}
+
+\descript{Bachelor Toegepaste Informatica}
+\location{Afstudeerrichting Networken | Verwacht juni 2016 | Kortrijk, België}
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Sint-Jozefsinstituut-College}
+
+\descript{Diploma informaticabeheer}
+\location{afgestudeerd in 2012 | Torhout, België}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links} 
+
+LinkedIn: \href{https://be.linkedin.com/in/pieter-vandamme-700b03a0}{\bf Pieter Vandamme} 
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Talen}
+
+\location{Goede kennis:}
+Dutch \textbullet{} English  \\
+
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{Degelijke kennis:}
+French
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.60\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Ervaring}
+
+\runsubsection{Proximus}
+\descript{Stagiair Explore Networks}
+
+\location{Maart 2015 - Juni 2015 | Gent, België}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Het ontwikkelen van een proof of concept. De applicatie is een netwerkgerelateerd portaal in Ruby (Sinatra). Het bevat een dynamisch netwerkschemagenerator, een configparser en -analyser, een connectiemanager waarbij de verbinding gebeurt over Telnet en SSH.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Dana Belgium}
+\descript{Studentenjob: ondersteuning van de IT-afdeling}
+
+\location{Juli 2012 - Augustus 2013 | Brugge, België}
+\begin{tightitemize}
+\item Ondersteuning van het personeel in de IT-afdeling
+\item Support van de clients
+\item Ontwikkeling van een software- en licentiecatalogus in PHP met een simpele GUI en een MySQL databank
+\item Batch scripter als ondersteuning van een migratie van oude naar nieuwe hardware en systemen.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Dana Belgium}
+\descript{Stagiair IT-afdeling}
+
+\location{April 2012 - Juni 2012 | Brugge, België}
+\begin{tightitemize}
+\item Ondersteuning van het personeel in de IT-afdeling
+\item Ontwikkeling van een tijdmanagementsysteem voor arbeiders in PHP
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Dana Belgium}
+\descript{Vakantiejob binnenslijperij}
+
+\location{Juli 2011 - Augustus 2011 | Brugge, België}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Societies
+%------------------------------------------------
+
+\section{Referenties}
+Proximus Gent: \\
+\href{https://be.linkedin.com/in/kimdepypere}{\bf Kim Depypere | +32 471 96 05 75}\\
+\href{https://www.linkedin.com/in/steven-mignon-79b48629}{\bf Steven Mignon}
+
+\section{Overige} 
+
+\descript{Voetbalscheidsrechter voor de KBVB}
+
+\descript{Rijbewijs B}
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
